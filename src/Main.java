@@ -37,7 +37,9 @@ public class Main {
         String kn=konaklamaYeriAl();
 
         hauses.forEach((h)->{
-        if(    evBosMu(h,gt,ct)){
+        if(evBosMu(h,gt,ct)){
+            //TODO:Buraya hangi evin bos oldugunu ve kac kisilik oldugunu ve evin özelliklerini de ekleyebilirmisiniz?            
+            // Eger ev bos ise evin özellliklerini yazsin. Eger ev dolu ise sadece semt ini yazsin ve dolu diye yazsin
             System.out.println("Bos ");
         }
         else{
