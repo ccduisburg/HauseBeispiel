@@ -37,10 +37,13 @@ public class Main {
         String kn=konaklamaYeriAl();
 
         hauses.forEach((h)->{
+            //TODO: Buraya evin bulundugu semti kontrol eden bir kontrol ekleyeceksiniz.
         if(    evBosMu(h,gt,ct)){
+            //TODO: Buraya Hangi ev bos ise o eve ait özellikleri eklermisiniz.
             System.out.println("Bos ");
         }
         else{
+            //TODO: Buraya Dolu evin hangi semtte ve kac odali oldugunu yazsin sadece
             System.out.println("Dolu ");
         }
         });
@@ -131,6 +134,9 @@ public class Main {
 
 
     }
+    
+    //TODO: Bitane daha method ekleyip evin bulundugu yeri kontrol edermisiniz
+    //Yani bir method daha yazacaksiniz bu method da evin yerini kontrol edecek.
 
 }
 
